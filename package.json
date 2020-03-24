@@ -1,0 +1,12 @@
+{
+  "name": "HVCG_Landingpage1",
+  "version": "1.0.0",
+  "description": "t-manh",
+  "main": "index.js",
+  "author": "t-manh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
