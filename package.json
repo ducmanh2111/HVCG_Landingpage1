@@ -2,11 +2,17 @@
   "name": "HVCG_Landingpage1",
   "version": "1.0.0",
   "description": "t-manh",
-  "main": "index.js",
+  "main": "app.js",
   "author": "t-manh",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
     "pug": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "node app.js",
+    "watch": "nodemon app.js sass --watch scss/style.scss:public/css/style.css"
   }
 }
