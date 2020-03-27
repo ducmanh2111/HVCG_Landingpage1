@@ -13,6 +13,7 @@
   },
   "scripts": {
     "dev": "node app.js",
-    "watch": "nodemon app.js sass --watch scss/style.scss:public/css/style.css"
+    "watch": "nodemon app.js",
+    "sass": "sass --watch scss/style.scss:public/css/style.css"
   }
 }
